@@ -6,6 +6,8 @@ app.get('/', (req, res) => {
     res.send('ok');
 })
 
-app.listen(PORT, () => {
+var server = app.listen(PORT, () => {
     console.log('Express app port ' + PORT);
 })
+
+module.exports = server;
