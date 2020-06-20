@@ -19,5 +19,9 @@
   "homepage": "https://github.com/orlandobrea/proyecto-ci-drone-server#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "supertest": "^4.0.2"
   }
 }
